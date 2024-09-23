@@ -49,6 +49,14 @@ html {
 	padding: 0 20px;
 }
 
+.col-40 {
+    width: 40%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
 .col-33 {
 	width: calc(100% / 3);
 }
