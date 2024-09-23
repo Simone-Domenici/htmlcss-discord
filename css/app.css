@@ -235,6 +235,11 @@ html {
     border-bottom: 1px solid white;
 }
 
+main h1 {
+    font-size: 30px;
+    padding: 15px 0;
+}
+
 /* Footer */
 
 .main-footer {
