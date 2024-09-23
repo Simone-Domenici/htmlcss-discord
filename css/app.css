@@ -109,6 +109,10 @@ html {
     color: black;
 }
 
+.cta-big {
+    line-height: 40px;
+}
+
 .footer-download {
     background-color: #7289DA;
     color: white;
