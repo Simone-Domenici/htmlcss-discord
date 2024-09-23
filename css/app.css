@@ -33,6 +33,13 @@ html {
 	padding: 0 2rem;
 }
 
+.container-sm {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -81,6 +88,17 @@ html {
 
 .cta {
     border-radius: 999px;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+.cta-browser {
+    background-color: #23272A;
+}
+
+.cta-download {
+    background-color: white;
+    color: black;
 }
 
 .ph-400 {
@@ -141,17 +159,32 @@ html {
 /* Hero */
 
 .hero {
-    min-height: 400px;
-    background-color: #EE82EE;
-    border: 1px dashed black;
-    border-radius: 5px;
-    width: 75%;
-    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.hero h1 {
+    font-size: 45px;
+    padding-bottom: 30px;
 }
 
 .hero-section {
-    background-color: #00008B;
-    padding: 40px 250px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 250px;
+}
+
+.hero p {
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 /* Header */
@@ -181,8 +214,6 @@ html {
 .navbar .cta {
     background-color: white;
     color: black;
-    line-height: 20px;
-    padding: 10px 15px;
 }
 
 /* Main section */
