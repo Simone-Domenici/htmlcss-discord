@@ -194,7 +194,7 @@ html {
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-position: center;
-    padding: 80px 250px;
+    padding: 80px 80px;
 }
 
 .hero p {
